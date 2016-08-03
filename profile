@@ -1,3 +1,5 @@
+#
+
 # El noclobber sirve para evitar destruir archivos preexistentes en el sistema mediante el uso de la línea de comandos. Si se quiere cambiar esta opción, poner set +o noclobber
 # Recordar que a esto se le puede sacar la vuelta en bash mediante el uso de un símbolo de pipa | después del símbolo de redireccionamiento > 
 set -o noclobber
